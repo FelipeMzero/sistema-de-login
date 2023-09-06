@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/create_account.css">
+    <title>Criar Conta</title>
+</head>
+<body>
+    <form class="create-account-form" method="POST" action="./static/php/create_account.php">
+        <h2>Criar Conta</h2>
+        <div class="box-user">
+            <input type="text" name="username" required>
+            <label>Nome de Usuário</label>
+        </div>
+        <div class="box-user">
+            <input type="text" name="full_name" required>
+            <label>Nome Completo</label>
+        </div>
+        <div class="box-user">
+            <input type="text" name="phone" required>
+            <label>Telefone</label>
+        </div>
+        <div class="box-user">
+            <input type="text" name="cpf" required>
+            <label>CPF</label>
+        </div>
+        <div class="box-user">
+            <input type="password" name="password" required>
+            <label>Senha</label>
+        </div>
+        <button type="submit" class="btn">Criar Conta</button>
+    </form>
+</body>
+</html>
